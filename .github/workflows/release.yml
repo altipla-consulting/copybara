@@ -12,7 +12,7 @@ jobs:
 
     - uses: actions/checkout@master
       with:
-        google/copybara
+        repository: google/copybara
 
     - uses: docker/build-push-action@v1
       with:
